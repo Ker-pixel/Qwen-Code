@@ -70,7 +70,7 @@ python main.py --system "You are a Rust security auditor. Focus on memory safety
 
 ## Network-restricted regions
 
-If HuggingFace is blocked or throttled in your region (common in Turkey and parts of Asia), set the mirror endpoint before the first run:
+If HuggingFace is blocked or throttled in your region, set the mirror endpoint before the first run:
 
 ```bash
 HF_ENDPOINT=https://hf-mirror.com python main.py
