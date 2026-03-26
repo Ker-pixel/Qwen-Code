@@ -68,24 +68,6 @@ python main.py --system "You are a Rust security auditor. Focus on memory safety
 
 ---
 
-## Network-restricted regions
-
-If HuggingFace is blocked or throttled in your region, set the mirror endpoint before the first run:
-
-```bash
-HF_ENDPOINT=https://hf-mirror.com python main.py
-```
-
-Or add it permanently to your shell profile:
-
-```bash
-export HF_ENDPOINT=https://hf-mirror.com
-```
-
-Once the weights are downloaded, the mirror setting is no longer needed.
-
----
-
 ## Memory design
 
 Qwen 2.5 Coder 1.5B at `float16` has a hard floor of ~3 GB just for weights. The script keeps total usage flat at ~4 GB through three mechanisms:
@@ -123,7 +105,6 @@ Bug reports and PRs are welcome. If you're adding support for a different model,
 
 - [Qwen Team](https://huggingface.co/Qwen) for the Qwen 2.5 Coder 1.5B model
 - [Hugging Face](https://huggingface.co) for the Transformers library
-- [hf-mirror.com](https://hf-mirror.com) for the open HuggingFace mirror
 
 ---
 
