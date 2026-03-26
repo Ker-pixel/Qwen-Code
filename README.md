@@ -59,7 +59,7 @@ The script manages Apple Silicon's unified memory by setting specific environmen
 
 This project is licensed under the Apache License 2.0. See the LICENSE file for the full text.
 
-### Acknowledgements
+### Acknowledgements
 
 * [Qwen Team](https://huggingface.co/Qwen) for the Qwen 2.5 Coder 1.5B model.
 * [Hugging Face](https://huggingface.co) for the Transformers and Accelerate libraries
