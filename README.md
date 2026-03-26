@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-A high-performance, visually polished, offline-first CLI for the **Qwen 2.5 Coder 1.5B** model. This tool is specifically engineered for **Apple Silicon (M1/M2/M3)** Macs, leveraging Metal Performance Shaders (MPS) for near-instant code generation and efficient memory handling.
+A high-performance, visually polished, offline-first CLI for the **Qwen 2.5 Coder 1.5B** model. This tool is specifically engineered for **Apple Silicon (M1/M2/M3/M4/M5)** Macs, leveraging Metal Performance Shaders (MPS) for near-instant code generation and efficient memory handling.
 
 ## ✨ Key Features
 
